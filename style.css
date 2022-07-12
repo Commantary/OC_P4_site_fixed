@@ -7,6 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+address {
+    color: #545454!important;
+}
+
+address a {
+    color: #3d3d3d !important;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -695,17 +703,21 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 50%;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: #545454!important;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -734,8 +746,14 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: black!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-row {
@@ -770,12 +788,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffd9c7!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -789,6 +807,14 @@ h4 {
 
 .ltc-white:hover {
     color: #cccccc!important;
+}
+
+.ltc-white {
+    color: black!important;
+}
+
+.ltc-white:hover {
+    color: white!important;
 }
 
 .ltc-atomic-tangerine {
